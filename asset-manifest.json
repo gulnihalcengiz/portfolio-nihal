@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-nihal/static/css/main.c6a732eb.css",
-    "main.js": "/portfolio-nihal/static/js/main.ee354d5b.js",
-    "static/media/profill3.jpeg": "/portfolio-nihal/static/media/profill3.69e53dfb94051e29ff26.jpeg",
-    "static/media/music.jpeg": "/portfolio-nihal/static/media/music.4b1469c783290148bfa4.jpeg",
-    "static/media/steak.jpeg": "/portfolio-nihal/static/media/steak.b6c6345751b3741d789e.jpeg",
-    "static/media/blog.jpeg": "/portfolio-nihal/static/media/blog.6249648003d9a1e57fc0.jpeg",
-    "static/media/John-Cv.pdf": "/portfolio-nihal/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
-    "index.html": "/portfolio-nihal/index.html",
-    "main.c6a732eb.css.map": "/portfolio-nihal/static/css/main.c6a732eb.css.map",
-    "main.ee354d5b.js.map": "/portfolio-nihal/static/js/main.ee354d5b.js.map"
+    "main.css": "/portfolio/static/css/main.eed990ea.css",
+    "main.js": "/portfolio/static/js/main.20dd1b3e.js",
+    "static/media/profill3.jpeg": "/portfolio/static/media/profill3.69e53dfb94051e29ff26.jpeg",
+    "static/media/music.jpeg": "/portfolio/static/media/music.4b1469c783290148bfa4.jpeg",
+    "static/media/steak.jpeg": "/portfolio/static/media/steak.b6c6345751b3741d789e.jpeg",
+    "static/media/blog.jpeg": "/portfolio/static/media/blog.6249648003d9a1e57fc0.jpeg",
+    "static/media/John-Cv.pdf": "/portfolio/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.eed990ea.css.map": "/portfolio/static/css/main.eed990ea.css.map",
+    "main.20dd1b3e.js.map": "/portfolio/static/js/main.20dd1b3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6a732eb.css",
-    "static/js/main.ee354d5b.js"
+    "static/css/main.eed990ea.css",
+    "static/js/main.20dd1b3e.js"
   ]
 }
