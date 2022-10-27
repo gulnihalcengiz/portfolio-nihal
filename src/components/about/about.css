@@ -1,0 +1,135 @@
+.about{
+    /* padding: 0rem 50%; */
+    text-align: center;
+    justify-content: center;
+}
+
+.about_container{
+    /* grid-template-columns: repeat(2, 1fr); */
+    align-items: center;
+    column-gap: 12rem;
+    justify-content: center;
+}
+
+.about_img{
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about_info{
+    grid-template-columns: repeat(2, 350px);
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+    /* margin-left: 1rem; */
+}
+
+.about_box{
+    background-color: rgb(92, 113, 138);
+    border: 10x solid rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.about_icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.about_title{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.about_subtitle{
+    font-size: 1.5rem;
+}
+
+.about_description{
+    padding: 4rem;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+}
+
+/* .about_data button{
+    margin-bottom: 5rem;
+} */
+
+
+
+@media screen and (max-width: 992px){
+    .about_container{
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about_img{
+        width: 220px;
+    }
+
+    .about_box{
+        padding: 0.7rem 0.5rem;
+    }
+
+    .about_data{
+        text-align: center;
+    }
+
+    .about_info{
+        justify-content: center;
+    }
+
+    .about_description{
+        padding: 0 5rem;
+        margin-bottom: 1.2rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 794px){
+    .about_info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about_title{
+        font-size: 1.5rem;
+    }
+
+    .about_subtitle{
+        font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px){
+
+    .about_info{
+        grid-template-columns:  1fr;
+    }
+
+    .about_description{
+        padding: 0;
+    }
+    .about_container{
+        margin-top: -2rem;
+    }
+  }
+
+  @media screen and (max-width: 460px){
+    .about_info{
+        grid-template-columns:  1fr;
+    }
+
+    .about_title{
+        font-size: 1.1rem;
+    }
+
+    .about_subtitle{
+        font-size: 0.8rem
+    }
+  }
+  
+  @media screen and (max-width: 350px){
+  }

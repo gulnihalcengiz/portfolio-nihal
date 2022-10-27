@@ -1,0 +1,107 @@
+.portfolio_image{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    background: url(../../assets/steak.jpeg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+    padding: 5rem;
+}
+.portfolio_image2{
+    width: auto;
+    height: 440px;
+    text-align: center;
+    justify-content: center;
+    background: url(../../assets/music.jpeg);
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+    padding: 8rem;
+}
+.portfolio_image3{
+    width: auto;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    background: url(../../assets/blog.jpeg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+    padding: 5rem;
+}
+/* .portfolio_image4{
+    width: auto;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    background: url(../../assets/fastfood2.jpeg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+    padding: 5rem;
+}
+.portfolio_image5{
+    width: auto;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    background: url(../../assets/music.jpeg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+    padding: 5rem;
+} */
+
+
+
+/* .portfolio_image img{
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+} */
+
+.portfolio_modal-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 600px;
+    position: relative;
+    background-color:rgb(17, 21, 26);
+    padding: 3.5rem;
+    border-radius: 1.4rem;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 576px){
+    /* .services_modal-content{
+        padding:  2.5rem;
+        box-sizing: border-box;
+        width: 200px;
+    } */
+    .portfolio_image, .portfolio_image2{
+        width: auto;
+        height: 200px;
+    }
+    .portfolio_image3{
+        width: auto;
+        height: 250px;
+    }
+    .portfolio_modal-content{
+        width: 450px;
+    }
+}
