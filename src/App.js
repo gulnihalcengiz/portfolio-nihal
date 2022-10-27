@@ -12,21 +12,23 @@ import Portfolio from './components/portfolio/Portfolio';
 
 function App() {
   return (
-    <>
-      <Header />
+    
+      
 
       <main className='main'>
+      <Header />
         <Home />
         <About />
         <Portfolio />
         <Skills />
         <Services />
         <Contact />
+        <Footer />
+      <ScrollUp />
       </main>
 
-      <Footer />
-      <ScrollUp />
-    </>
+      
+    
   );
 }
 
