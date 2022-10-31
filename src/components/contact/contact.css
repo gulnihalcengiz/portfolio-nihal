@@ -30,7 +30,7 @@ h2.section_title{
 
 .contact_content{
     /* margin-left: 2rem; */
-    grid-template-columns: 400px;
+    grid-template-columns: 600px;
 }
 
 .contact_card{
@@ -180,7 +180,9 @@ h2.section_title{
         text-align: center;
     }
     .contact_card{
-        width: 20rem;
+        width: 300px;
+        padding: 1rem 0.5rem;
+        height: 170px;
     }
     .contact_content h2{
         font-size: 2.3rem;

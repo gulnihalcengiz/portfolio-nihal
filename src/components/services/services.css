@@ -1,5 +1,5 @@
 .services_container{
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(3, 300px);
     justify-content: center;
     column-gap: 2rem;
 }
@@ -86,7 +86,7 @@
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 0.7rem;
-    color: antiquewhite;
+    color: #11151A;
 }
 
 .services_modal-description{
@@ -142,20 +142,29 @@
   
   @media screen and (max-width: 576px){
     .services_modal-content{
-        padding:  2.5rem;
+        padding: 4rem 1.5rem;
         box-sizing: border-box;
-        width: 300px;
+        /* width: 300px; */
+        height: 400px;
     }
-
+    .services_modal-info{
+        text-align: left;
+        font-size: 1.4rem;
+    }
+    .services_modal-title h3{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
     .services_modal-description{
         padding: 0;
     }
     .services_container{
-        grid-template-columns: max-content;
+        grid-template-columns: 350px;
     }
     .services_content{
         padding: 1rem 3rem;
         text-align: center;
+        width: 100%;
     }
 
   }

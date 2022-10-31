@@ -58,7 +58,7 @@ const Services = () => {
                                 <li className="services_modal-service">
                                     <i className="fa-solid fa-circle-check services_modal-icon"></i>
                                     <p className="services_modal-info">
-                                        Design & mock-ups of products for companies.
+                                       Design & mock-ups of products for companies.
                                     </p>
                                 </li>
                             </ul>
@@ -132,7 +132,7 @@ const Services = () => {
                         <div className="services_modal-content">
 
                             <i onClick={() => toggleTab(0)} className="fa-regular fa-circle-xmark services_modal-close"></i>
-                            <h3 className="services_modal-title">Visual Desginer</h3>
+                            <h3 className="services_modal-title">Visual Designer</h3>
                             {/* <p className="services_modal-description">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, quis!
                             </p> */}

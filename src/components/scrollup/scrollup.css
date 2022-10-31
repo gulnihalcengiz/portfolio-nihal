@@ -19,6 +19,9 @@
     background-color: white;
     transition: .3s;
 }
+.home_scroll{
+    margin-bottom: 7rem;
+}
 
 /*Show Scroll*/
 
