@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-nihal/static/css/main.152d6631.css",
-    "main.js": "/portfolio-nihal/static/js/main.81ac4b9f.js",
+    "main.css": "/portfolio-nihal/static/css/main.3db49634.css",
+    "main.js": "/portfolio-nihal/static/js/main.df151217.js",
+    "static/media/it-n.jpg": "/portfolio-nihal/static/media/it-n.29e8ef2817cf7235d878.jpg",
+    "static/media/law-attorney-head.png": "/portfolio-nihal/static/media/law-attorney-head.046a712ce7cedac1918b.png",
+    "static/media/bbb6.jpg": "/portfolio-nihal/static/media/bbb6.9d9812f2a26917a52aed.jpg",
     "static/media/profill3.jpeg": "/portfolio-nihal/static/media/profill3.69e53dfb94051e29ff26.jpeg",
-    "static/media/music.jpeg": "/portfolio-nihal/static/media/music.4b1469c783290148bfa4.jpeg",
-    "static/media/steak.jpeg": "/portfolio-nihal/static/media/steak.b6c6345751b3741d789e.jpeg",
-    "static/media/blog.jpeg": "/portfolio-nihal/static/media/blog.6249648003d9a1e57fc0.jpeg",
-    "static/media/John-Cv.pdf": "/portfolio-nihal/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "static/media/CV-nihal.pdf": "/portfolio-nihal/static/media/CV-nihal.82568bfdedff8c856142.pdf",
     "index.html": "/portfolio-nihal/index.html",
-    "main.152d6631.css.map": "/portfolio-nihal/static/css/main.152d6631.css.map",
-    "main.81ac4b9f.js.map": "/portfolio-nihal/static/js/main.81ac4b9f.js.map"
+    "main.3db49634.css.map": "/portfolio-nihal/static/css/main.3db49634.css.map",
+    "main.df151217.js.map": "/portfolio-nihal/static/js/main.df151217.js.map"
   },
   "entrypoints": [
-    "static/css/main.152d6631.css",
-    "static/js/main.81ac4b9f.js"
+    "static/css/main.3db49634.css",
+    "static/js/main.df151217.js"
   ]
 }
