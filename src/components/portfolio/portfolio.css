@@ -1,9 +1,9 @@
 .portfolio_image{
     width: auto;
-    height: 500px;
+    height: 350px;
     text-align: center;
     justify-content: center;
-    background: url(../../assets/steak.jpeg);
+    background: url(../../assets/it-n.jpg);
     border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,10 +13,10 @@
 }
 .portfolio_image2{
     width: auto;
-    height: 440px;
+    height: 400px;
     text-align: center;
     justify-content: center;
-    background: url(../../assets/music.jpeg);
+    background: url(../../assets/bbb6.jpg);
     border-radius: 12px;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,10 +26,10 @@
 }
 .portfolio_image3{
     width: auto;
-    height: 400px;
+    height: 280px;
     text-align: center;
     justify-content: center;
-    background: url(../../assets/blog.jpeg);
+    background: url(../../assets/law-attorney-head.png);
     border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,13 +97,17 @@
         box-sizing: border-box;
         width: 200px;
     } */
-    .portfolio_image, .portfolio_image2{
+    .portfolio_image{
+        width: auto;
+        height: 260px;
+    }
+    .portfolio_image2{
         width: auto;
         height: 200px;
     }
     .portfolio_image3{
         width: auto;
-        height: 250px;
+        height: 220px;
     }
     .portfolio_modal-content{
         width: 450px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import"./about.css";
 // import AboutImg from "portfolio/src/components/about/customer-support-executive-helping-customer-2996661-2500693.jpeg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/CV-nihal.pdf";
 import Info from './Info';
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
                   Blend experiences and reveals your product.  
                 </p>
 
-                {/* <a download="" href="{CV}" className="button button--flex">Download CV
+                <a download="" href={CV} className="button button--flex">Download CV
                    <svg
                 className="button_icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ const About = () => {
                   fill="rgb(17, 21, 26)"
                 ></path>
                    </svg>
-                </a> */}
+                </a>
             </div>
         </div>
     </section>

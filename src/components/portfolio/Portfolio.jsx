@@ -16,8 +16,8 @@ const Portfolio = () => {
 
                 <div className="services_content">
                     <div>
-                        <i className="fa-solid fa-utensils services_icon"></i>
-                        <h3 className="services_title">Steak House <br />Website Design</h3>
+                        <i class="fa-solid fa-paintbrush services_icon"></i>
+                        <h3 className="services_title">Illustration <br/> ArtWork</h3>
                     </div>
 
                     <span className="services_button" onClick={() => toggleTab(1)}>See More
@@ -29,7 +29,7 @@ const Portfolio = () => {
 
                             <i onClick={() => toggleTab(0)} className="fa-regular fa-circle-xmark services_modal-close"></i>
                             
-                            <h3 className="services_modal-title">- Steak House -</h3>
+                            <h3 className="services_modal-title">- Illustration -</h3>
                             <div className="portfolio_image"></div>
                             
                         </div>
@@ -38,8 +38,8 @@ const Portfolio = () => {
 
                 <div className="services_content">
                     <div>
-                        <i className="fa-solid fa-headphones services_icon"></i>
-                        <h3 className="services_title">Headphones <br /> Website Design</h3>
+                        <i class="fa-solid fa-pencil services_icon"></i>
+                        <h3 className="services_title">Character <br/>Design</h3>
                     </div>
 
                     <span onClick={() => toggleTab(2)} className="services_button">See More
@@ -50,7 +50,7 @@ const Portfolio = () => {
                         <div className="portfolio_modal-content">
 
                             <i onClick={() => toggleTab(0)} className="fa-regular fa-circle-xmark services_modal-close"></i>
-                            <h3 className="services_modal-title">- HeadPhones -</h3>
+                            <h3 className="services_modal-title">- Character Design -</h3>
                             
                             <div className="portfolio_image2"></div>
                         </div>
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 <div className="services_content">
                     <div>
                         <i className="fa-solid fa-book services_icon"></i>
-                        <h3 className="services_title">Blog <br /> Website Design</h3>
+                        <h3 className="services_title">Law-Attorney <br /> Website Design</h3>
                     </div>
 
                     <span onClick={() => toggleTab(3)} className="services_button">See More
@@ -71,7 +71,7 @@ const Portfolio = () => {
                         <div className="portfolio_modal-content">
 
                             <i onClick={() => toggleTab(0)} className="fa-regular fa-circle-xmark services_modal-close"></i>
-                            <h3 className="services_modal-title">- Blog -</h3>
+                            <h3 className="services_modal-title">- Law-Attorney -</h3>
                             
                             <div className="portfolio_image3"></div>
                         </div>

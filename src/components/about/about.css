@@ -26,7 +26,7 @@
 
 .about_box{
     background-color: rgb(92, 113, 138);
-    border: 10x solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 1rem;
     text-align: center;
     padding: 2rem;
