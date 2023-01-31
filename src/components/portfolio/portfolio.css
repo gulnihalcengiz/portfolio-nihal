@@ -24,7 +24,7 @@
     order: 1;
     padding: 8rem;
 }
-.portfolio_image3{
+/* .portfolio_image3{
     width: auto;
     height: 280px;
     text-align: center;
@@ -36,7 +36,7 @@
     background-size: cover;
     order: 1;
     padding: 5rem;
-}
+} */
 /* .portfolio_image4{
     width: auto;
     height: 500px;
@@ -63,6 +63,18 @@
     order: 1;
     padding: 5rem;
 } */
+
+.portfolio_link{
+    text-align: center;
+}
+.portfolio_link a{
+    font-size: 2rem;
+    color: #32455e;
+}
+.portfolio_link a:hover {
+    transition: all ease .3s;
+    color: #32455e9c;
+}
 
 
 

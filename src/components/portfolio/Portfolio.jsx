@@ -60,7 +60,7 @@ const Portfolio = () => {
                 <div className="services_content">
                     <div>
                         <i className="fa-solid fa-book services_icon"></i>
-                        <h3 className="services_title">Law-Attorney <br /> Website Design</h3>
+                        <h3 className="services_title"> Website <br /> Design</h3>
                     </div>
 
                     <span onClick={() => toggleTab(3)} className="services_button">See More
@@ -71,9 +71,13 @@ const Portfolio = () => {
                         <div className="portfolio_modal-content">
 
                             <i onClick={() => toggleTab(0)} className="fa-regular fa-circle-xmark services_modal-close"></i>
-                            <h3 className="services_modal-title">- Law-Attorney -</h3>
+                            <h3 className="services_modal-title">- BlogRSA -</h3>
+                            <div className="portfolio_link">
+                            {/* <p>Visit and see!</p> */}
+                            <a href="https://blog-rsa-gulnihalcengiz.vercel.app">BlogRSA / Gulnihal Cengiz</a>
+                            <p>Powered by Vercel. <br /> 2023 </p>
                             
-                            <div className="portfolio_image3"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
